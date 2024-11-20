@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Geist', sans-serif;
+    color:#08090A;
+    padding: 4rem 1.5rem;
+    margin: 0rem 21rem;
+
+}
+
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    gap: 40px;
+    border: 1px solid red;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 20px 10px;
+    color: #0F172A;
+}
+
+.navbar a:hover {
+    border-radius: 30px;
+    background-color: #0F172A;
+    color: #EBEFF5;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    white-space: pre;
+}
+
+.socials {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.socialIcons {
+    width: 80%;
+    height: 85%;
+    margin-right: 1.5rem;
+    padding: 0.8rem;
+    border: 1px solid #0BDA51;
+    border-radius: 20%;
+}
+
+.socialIcons:hover {
+    background-color: #0BDA51;
+    fill: white;
+}
+
+.about, .experience, .tech_stack {
+    margin-top: 2.5rem;
+}
+
+.subHeading {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.description {
+    color: #393A3B;
+    margin-top: 0.5rem;
+}
+
+.techIcons {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* .border-green {
+    border: 1px solid #0BDA51;
+    border-radius: 10%;
+} */
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 6rem;
+    padding: 0.8rem;
+}
+
+.iconText {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.card {
+    position: relative;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.rect {
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background-color: #0BDA51;
+}
+
+.firstExp {
+    margin-left: 1rem;
+}
+
+.expTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.workPosition {
+    align-items: flex-start;
+    font-size: 1.4rem;
+}
+
+.workDate {
+    align-items: flex-end;
+    color: #393A3B;
+    font-weight: 400;
+}
+
+.workPlace {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.name_email {
+    display: flex;
+    margin: 10px;
+    width: 700px;
+}
+
+.contactForm input {
+    padding: 10px;
+    flex: 3;
+}
+
+.contactForm label {
+    font-size: 18px;
+    padding: 5px;
+    flex: 1;
+}
+
+.contactForm textarea {
+    height: 200px;
+    padding: 10px;
+}
+
+.subj_message {
+    display: flex; 
+    flex-direction: column;
+    margin: 10px;
+}
+
+.btn_submit {
+    font-size: 18px;
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    border: 1;
+    border-radius: 20px;
+}
+
+.btn_submit:hover {
+    background-color: #0F172A;
+    color: #EBEFF5;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
