@@ -1,12 +1,13 @@
+:root {
+    --bs-font-sans-serif: Geist;
+  }
+  
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Geist', sans-serif !important;
-    color:#08090A;
+
 }
 
 .socials {
