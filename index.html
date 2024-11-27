@@ -3,24 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Paul Pastorin | Personal Profile</title>
+    <title>Paul Pastorin</title>
 
     <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>
-
+  
+  <body class="container py-5 px-5">
     <main> 
-        <section class="first_container">
-            <h1>Hi, I'm Paul.</h1>
-            <h3>A web developer and a graphic designer based in the Philippines.</h3>
-            <h3>I make clean, responsive websites that deliver a fluid user experience.</h3>
-
-            <div class="socials">
+        <section id="hero">
+            <h1 class="display-2 fw-bold">Hi, I'm Paul.</h1>
+            <h3 class="lead">A web developer and a graphic designer based in the Philippines.</h3>
+            <div class="d-flex gap-4 mt-4">
                 <a href="https://github.com/pol567" target="_blank">
                     <svg class="socialIcons" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#08090A" class="bi bi-github" viewBox="0 0 16 16">
                         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
@@ -34,107 +32,70 @@
             </div>
         </section>
 
-        <section class="second_container">
-            <div class="about">
-                <h3 class="subHeading">About</h3>
-                <p class="description">I'm an enthusiastic web developer dedicated to simplicity and user-friendliness. I love turning concepts into straightforward, user-friendly designs that function effortlessly on various devices. My goal is to create websites that emphasize a seamless and intuitive experience for users, all while keeping a tidy and appealing aesthetic.</p>
+        <section id="about">
+            <div class="mt-5">
+                <h4 class="fw-bolder mb-0">About</h4>
+                <p class="text-muted">I'm an enthusiastic web developer dedicated to simplicity and user-friendliness. I love turning concepts into straightforward, user-friendly designs that function effortlessly on various devices. My goal is to create websites that emphasize a seamless and intuitive experience for users, all while keeping a tidy and appealing aesthetic.</p>
             </div>
+        </section>
 
-            <div class="experience">
-                <h3 class="subHeading">Experience</h3>
-                <div class="card">
-                    <div class="rect"></div>
-                    <div class="firstExp">
-                        <div class="expTitle">
-                            <h4 class="workPosition">Web Developer</h4>
-                            <h4 class="workDate">Aug. 31, 2021 – Apr. 30, 2022</h4>
-                        </div>
-                        <h5 class="workPlace">WeSupport Inc.</h5>
-                        <p class="description">Design, develop, and maintain the After Sales System using React, Node.js and Microsoft SQL Server, focusing on creating user-friendly interfaces with HTML, CSS, and JavaScript for seamless integration. Optimize database functionality for accuracy and security, and troubleshoot issues to ensure system performance and scalability.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tech_stack">
-                <h3 class="subHeading">Current Toolkit</h3>
-                <div class="icons">
-                    <!-- HTML -->
-                    <div class="border-green icon">
-                        <svg class="techIcons" fill="#08090A"   version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="16px"
-                        height="16px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                        <path display="inline" d="M30.713,0.501L71.717,460.42l184.006,51.078l184.515-51.15L481.287,0.501H30.713z M395.754,109.646
-                        l-2.567,28.596l-1.128,12.681h-0.187H256h-0.197h-79.599l5.155,57.761h74.444H256h115.723h15.201l-1.377,15.146l-13.255,148.506
-                        l-0.849,9.523L256,413.854v0.012l-0.259,0.072l-115.547-32.078l-7.903-88.566h26.098h30.526l4.016,44.986l62.82,16.965l0.052-0.014
-                        v-0.006l62.916-16.977l6.542-73.158H256h-0.197H129.771l-13.863-155.444l-1.351-15.131h141.247H256h141.104L395.754,109.646z">
-                        </path>
-                        </svg>
-                        <p class="iconText">HTML</p>
-                    </div>
-                    
-
-                    <!-- CSS -->
-                    <div class="border-green icon">
-                        <svg class="techIcons" fill="#08090A"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="16px" height="16px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                            <path display="inline" d="M483.111,0.501l-42.59,461.314l-184.524,49.684L71.47,461.815L28.889,0.501H483.111z M397.29,94.302
-                            H255.831H111.866l6.885,55.708h137.08h7.7l-7.7,3.205l-132.07,55.006l4.38,54.453l127.69,0.414l68.438,0.217l-4.381,72.606
-                            l-64.058,18.035v-0.057l-0.525,0.146l-61.864-15.617l-3.754-45.07h-0.205H132.1h-0.202l7.511,87.007l116.423,34.429v-0.062
-                            l0.21,0.062l115.799-33.802l15.021-172.761h-131.03h-0.323l0.323-0.14l135.83-58.071L397.29,94.302z">
-                            </path>
-                        </svg>
-                        <p class="iconText">CSS</p>
-                    </div>
-
-                    <!-- Javascript -->
-                    <div class="border-green icon">
-                        <svg class="techIcons" fill="#08090A"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="16px"
-                        height="16px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-                        <path display="inline" fill-rule="evenodd" clip-rule="evenodd" d="M1.008,0.5C0.438,0.583,0.48,1.27,0.521,1.958
-                        c0,169.668,0,339.31,0,508.974c169.364,1.135,340.808,0.162,510.979,0.486c0-170.309,0-340.61,0-510.918
-                        C341.342,0.5,171.167,0.5,1.008,0.5z M259.893,452.167c-11.822,11.919-30.478,18.938-53.429,18.938
-                        c-37.643,0-58.543-18.34-71.884-43.711c12.842-8.2,25.966-16.122,39.344-23.795c5.456,15.262,23.886,32.42,44.683,21.857
-                        c13.183-6.699,11.661-27.01,11.661-49.054c0-45.773,0-98.578,0-139.872c-0.042-0.688-0.083-1.375,0.482-1.458
-                        c15.707,0,31.413,0,47.116,0c0,36.788,0,78.402,0,117.529C277.866,395.199,280.91,430.988,259.893,452.167z M470.696,409.917
-                        c-2.674,39.884-35.243,61.063-79.17,61.188c-43.062,0.124-70.624-19.013-87.433-48.567c12.085-8.317,25.778-15.017,38.375-22.822
-                        c10.08,15.761,27.537,30.91,53.429,28.652c16.131-1.406,34.856-14.555,24.285-34.482c-5.127-9.66-17.516-14.567-28.656-19.425
-                        c-35.352-15.424-76.828-29.571-72.861-84.992c1.327-18.514,9.852-31.525,20.889-40.796c11.311-9.5,26.46-15.867,46.629-16.511
-                        c36.629-1.173,56.723,15.12,70.429,37.884c-11.664,8.891-24.514,16.608-37.401,24.281c-4.229-12.995-24.644-25.658-41.772-17.969
-                        c-7.789,3.493-14.788,13.761-10.684,26.224c3.66,11.115,18.589,17.199,30.599,22.344
-                        C433.706,340.486,474.331,355.693,470.696,409.917z">
-                        </path>
-                        </svg>
-                        <p class="iconText">Javascript</p>
+        <section id="experience">
+            <div class="mt-5">
+                <h4 class="fw-bolder mb-0">Experience</h4>
+                <div class="card border-0 mt-0">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Web Developer</h5>
+                        <h6 class="card-subtitle mb-2"><small>Aug. 31, 2021 – Apr. 30, 2022</small></h6>
+                        <h6 class="card-subtitle mb-2">WeSupport Inc.</h6>
+                        <p class="card-text text-muted">Design, develop, and maintain the After Sales System using React, Node.js and Microsoft SQL Server, focusing on creating user-friendly interfaces with HTML, CSS, and JavaScript for seamless integration. Optimize database functionality for accuracy and security, and troubleshoot issues to ensure system performance and scalability.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section class="third_container">
-            <h3 class="subtitle">Contact Us</h3>
-            <div class="contactForm">
-                <form action="/submit" method="post">
-                    <div class="name_email">
-                        <label for="clientName"><span style="color: red;">*</span>Fullname:</label>
-                        <input type="text" name="clientName" id="clientName" pattern="^[A-Za-z\s]+$" title="Only letters are allowed" required>
-                        <label for="clientEmail"><span style="color: red;">*</span>E-mail:</label>
-                        <input type="email" name="clientEmail" id="clientEmail" required>
-                    </div>
-
-                    <div class="subj_message">
-                        <label for="subject">Subject:</label>
-                        <input type="text" name="subject" id="subject">
-                        <label for="message">Message:</label><br>
-                        <textarea name="message" id="message"></textarea>
-                        <button type="submit" class="btn_submit">Submit</button>
-                    </div>
+        <section id="toolkit">
+            <div class="mt-5">
+                <h3 class="fw-bolder mb-0">Current Toolkit</h3>
+                <div class="container">
                     
-                </form>
-            </div>
-        </section> -->
-    </main>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col d-flex align-items-center">
+                        <svg class="bi text-body-secondary flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="black" viewBox="0 0 24 24">
+                            <path d="m3 2 1.578 17.824L12 22l7.467-2.175L21 2H3Zm14.049 6.048H9.075l.172 2.016h7.697l-.626 6.565-4.246 1.381-4.281-1.455-.288-2.932h2.024l.16 1.411 2.4.815 2.346-.763.297-3.005H7.416l-.562-6.05h10.412l-.217 2.017Z"/>
+                          </svg>
+                          
+                        <div>
+                            <h3 class="fw-bold ms-2 mb-0 fs-4 text-body-emphasis">HTML</h3>
+                        </div>
+                    </div>
 
-    <!-- <footer>
-        <p>© Paul Pastorin 2024</p>
-        <p>Philippines</p>
-    </footer> -->
+                    <div class="col d-flex align-items-center">
+                        <svg class="bi text-body-secondary flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" fill="black" viewBox="0 0 24 24">
+                            <path d="m3 2 1.578 17.834L12 22l7.468-2.165L21 2H3Zm13.3 14.722-4.293 1.204H12l-4.297-1.204-.297-3.167h2.108l.15 1.526 2.335.639 2.34-.64.245-3.05h-7.27l-.187-2.006h7.64l.174-2.006H6.924l-.176-2.006h10.506l-.954 10.71Z"/>
+                          </svg>
+                          
+                        <div>
+                            <h3 class="fw-bold ms-2 mb-0 fs-4 text-body-emphasis">CSS</h3>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex align-items-center">
+                        <svg class="bi text-body-secondary flex-shrink-0" width="3rem" height="3rem" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H24V24H0V0ZM18.3467 20.1196C17.2343 20.1196 16.6053 19.5394 16.1219 18.7501L14.2891 19.8149C14.9512 21.123 16.3044 22.1211 18.3989 22.1211C20.5409 22.1211 22.136 21.0088 22.136 18.9783C22.136 17.0949 21.0541 16.2571 19.1379 15.4354L18.5741 15.1939C17.6065 14.7749 17.1874 14.501 17.1874 13.8244C17.1874 13.277 17.6061 12.8579 18.2667 12.8579C18.9143 12.8579 19.3314 13.131 19.7181 13.8244L21.4743 12.6968C20.7314 11.3901 19.7006 10.891 18.2667 10.891C16.2526 10.891 14.9638 12.1787 14.9638 13.8701C14.9638 15.7063 16.0449 16.5749 17.6724 17.2682L18.2362 17.5101C19.2648 17.96 19.8781 18.2339 19.8781 19.0072C19.8781 19.6526 19.2811 20.1196 18.3467 20.1196ZM9.60647 20.1055C8.83161 20.1055 8.50933 19.5741 8.15504 18.9455L6.31923 20.057C6.85104 21.1825 7.89676 22.117 9.70247 22.117C11.7009 22.117 13.0701 21.0541 13.0701 18.7189V11.0198H10.8149V18.6884C10.8149 19.8156 10.3474 20.1055 9.60647 20.1055Z" fill="#000000"/>
+                            </svg>
+                          
+                        <div>
+                            <h3 class="fw-bold ms-2 mb-0 fs-4 text-body-emphasis">JavaScript</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
   </body>
 </html>
+
+
+
+  
