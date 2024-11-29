@@ -10,16 +10,61 @@
 
 }
 
-.socials {
-    display: flex;
-    gap: 1rem;
+span:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    background-color: #0BDA51;
+    border-radius: 50%;
+  }
+
+
+.icon {
+    transition: transform 0.3s ease;
 }
 
-.socialIcons {
-    width: 2rem;
-    height: auto;
+.borderRed {
+    border: 1px solid red;
 }
 
-.socialIcons:hover {
-    fill: #0BDA51;
+.icon:hover {
+    transform: translateY(-5px);
 }
+
+.icon:hover .htmlColor{
+    fill: #FC490B;
+    color: #FC490B;;
+}
+
+.icon:hover .cssColor{
+    fill: #0d76cc;
+    color: #0d76cc;
+}
+
+.icon:hover .jsColor{
+    fill: #c9b90c;
+    color: #c9b90c;;
+}
+
+.icon:hover .bsColor {
+    fill: #7418F5;
+    color: #7418F5;
+}
+
+.icon:hover .githubColor {
+    fill: #22262A;
+}
+
+.icon:hover .lnkColor {
+    fill: #306CB2;
+}
+
+
+
+
+
+/* #htmlIcon svg:hover {
+    fill: #FC490B;
+} */
